@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "PagerZoomSDK",
             targets: ["PagerZoomSDK"]),
+        .library(
+            name: "CptShare",
+            targets: ["CptShare"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

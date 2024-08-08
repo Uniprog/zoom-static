@@ -21,5 +21,9 @@ let package = Package(
             name: "PagerZoomSDK",
             path: "SDK/ZoomVideoSDK.xcframework"
         ),
+        .binaryTarget(
+            name: "CptShare",
+            path: "SDK/CptShare.xcframework"
+        ),
     ]
 )
